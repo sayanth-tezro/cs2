@@ -1,10 +1,23 @@
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+body {
+				background:#e8ffff;
+				}
+
 ul {
 				list-style-type: none;
 				margin: 0;
 				padding: 0;
 				overflow: hidden;
 				background-color: #333; 
-				border-radius:8px;
+				border: 2px solid white;
+				border-radius: 8px;
     }
  li { 
  				float: left;
@@ -20,7 +33,7 @@ ul {
  				background-color: #111; 
  				}
  .active {
- 				background-color: #4CAF50;
+ 				background-color: #1abc9c;
  				}
 
 .card {
@@ -29,6 +42,7 @@ ul {
 				   margin: auto;
 				   text-align: center;
 				   font-family: arial;
+				   background:white;
 				   }
 				   
 .title {
@@ -37,12 +51,12 @@ ul {
 				    }
 
 button {
-				border: none;
+				border: 2px solid #333;
 				outline: 0;
 				display: inline-block;
 				padding: 8px;
 				color: white;
-				background-color: #000;
+				background-color: #1abc9c;
 				text-align: center;
 				cursor: pointer;
 				width: 100%;
